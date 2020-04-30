@@ -1,0 +1,13 @@
+<h2>Employee</h2>
+<div>
+<table>
+        <th>EmpName</th>
+        <th>EmpSal</th>
+        <th>EmpAge</th>
+     <tr *ngFor='let item of response'>
+        <td>{{item.employee_name}}</td>
+        <td >{{item.employee_salary}}</td>
+        <td>{{item.employee_age}}</td>
+    </tr>
+</table>
+</div>
